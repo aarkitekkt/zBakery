@@ -1,0 +1,170 @@
+/* 
+Theme Name: zBakery
+Author: aarkitekkt
+Version: 1.0
+*/
+
+
+
+/* swatches {
+#F4F1DE;
+ #E07A5F;
+ #3D405B;
+ #81B29A;
+#F2CC8F;
+} */
+
+
+/* ----- HEADER ----- */
+
+#navLogo {
+    height: 50px;
+}
+
+
+a {
+    color: white;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+nav {
+    background-color: #3D405B;
+    z-index: 5;
+}
+
+.content {
+    min-height: 100vh;
+    padding: 100px 0px;
+    margin-top: -50px;
+}
+
+/* ---- HOME PAGE ---- */
+
+#mainBanner {  
+    height: 600px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+#mainBannerImage {
+    width: 100%;
+    min-height: 600px;  
+    object-fit: cover;
+}
+
+#bannerTitle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#bannerLogo {
+    width: 350px;
+}
+
+.mainDescription {
+    height: 200px;
+    width: 200px;
+    background-color: #3D405B;
+}
+
+.mainDescription:hover {
+    background-color: #81B29A;
+}
+
+/* ----- FOOTER ----- */
+
+footer {
+    background-color: #E07A5F;
+    height: 175px;
+    margin-top: -150px;
+}
+
+#madeby {
+    color: black;
+}
+
+.footer-link {
+    color: black;
+    margin: 0px;
+}
+
+.footer-link:hover {
+    color:#81B29A;
+}
+
+#socials {
+    width: 300px;
+}
+
+.socialIcon {
+    height: 40px;
+}
+
+/* ----  ABOUT PAGE ---- */
+
+
+.teamPic {
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* ----- FLAVORS PAGE ----- */
+
+#pageBanner {
+    padding: 0px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+#pageTitle {
+   position: absolute;
+   background-color: rgba(0,0,0,0.6);
+   height: 100%;
+}
+
+#pageBannerImage {
+    width: 100%;
+    min-height: 400px;
+}
+
+.flavor {
+    max-width: 300px;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+}
+
+.flavorImage {
+    width: 200px;
+    height: auto;
+    border: 2px solid lightgray;
+    border-radius: 50%;
+}
+
+/* ----- PRICING PAGE ----- */
+
+.table {
+    width: 250px;
+    margin: 30px;
+}
+
+
+th {
+    background-color:  #81B29A;
+}
